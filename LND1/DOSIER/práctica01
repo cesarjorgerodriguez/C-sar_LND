@@ -1,0 +1,14 @@
+<html>
+<!DOCTYPE html>
+    <head>
+  <tittle> practica02.html <tittle>
+    <head>
+    <body>
+    <h1> texto  <br> </h1>
+    <h2> texto  <br> </h2>
+    <h3> texto  <br> </h3>
+    <h4> texto  <br> </h4>
+    <h5> texto  <br> </h5>
+    <h6> texto  <br> </h6>
+  </body>
+  </html>
