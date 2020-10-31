@@ -1,0 +1,36 @@
+<html>
+
+    <head>
+  <tittle> <h1> práctica01.html </h1> <tittle>
+    <head>
+    <body>  <body bgcolor=grey>
+    <h2> <big> Extracto </big>  <br> </h2>
+    <OL type=all start=5>
+      <LI>. ..
+      <LI> Hoy en España
+      <LI> Hoy en Europa
+    </ol>
+  <h2> <ol type=all start=5>
+   <LI> ESPAÑA
+  <ul type="disc"  >
+  <li>  Transmision de dinero sospechosa: </li>
+    <ul type="circle">
+
+    <li> bancos </li>
+  </ul>
+    <li> organizaciones públicas: </li>
+    <ul type = "circle">
+    <li> A nivel de CCA</li>
+    <li> A nivel estatal</li>
+    <li> Otros casos</li>
+  </ul> </ul>
+  <h2> <li>Europa</li></h2>
+  <dl>
+  <dt> TTIP </dt>
+  <dd> Tratado Transatlántico de Comercio e Inversiones</dd>
+  <dt>CETA</dt>
+  <dd>Tratados de Libre Comercio con Singapur y Canadá</dd>
+  </dl>
+
+
+  </body>
