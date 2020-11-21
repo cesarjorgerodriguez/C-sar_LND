@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+  <head>
+  <title>Tarea 3.1</title>
+  </head>
+
+  <body>
+  <h3>  César Jorge Rodríguez </h3>
+
+  <fieldset> <legend>  Datos de propietario  </legend>
+  <h5> Nombre: <input type="text" id="Nombre" value="Inserte nombre"/> </h5>
+  <h5>   Sexo:    Hombre <input type="radio" id="hombre" value="1"/>  Mujer  <input type="radio" id="mujer" value="2"/> </h5>
+  </fieldset>
+
+  <fieldset> <legend> Datos del vehículo </legend>
+  <form  action="index.html" method="post"/>
+  <h5> Marca/modelo: <input type="text" id="marca_modelo" value="Inserte aqui"/>  </h5>
+  <h5> Matrícula <input type="text" id="Matricula" value="Inserte aqui"/> </h5>
+  <h5> Características:<select  id="caracteristicas" size="3" multiple="multiple">
+  <option value="valor1" selected="selected"> utilitario </option>
+  <option value="valor2"> todo terreno </option>
+  <option value="valor3" selected="selected"> alta gama </option>
+  </select> </h5>
+<h5> Otros datos: </h5>
+<input type="checkbox" id="servofrenos" value="3" checked="checked"/> Servo Frenos
+<input type="checkbox" id="Evalunas" value="4" checked="checked"/> Evalunas
+<input type="checkbox" id="Remolque" value="5"/> Remolque
+  </fieldset>
+  <form action="http://google.com" method="get">
+    <button type="submit" id="enviar" value="procesar.php">  enviar </button>
+  </form>
+</body>
+</html>
