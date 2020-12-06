@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//ES"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title> Tarea 4.1 CSS I</title>
+    <style media="screen">
+      p, h3, option, select {font-family:Courier;
+        font-size:12px;
+        text-align: justify;}
+
+     fieldset {width:600px}
+
+     span {color:#1F49EE;font-weight:bold;
+       font-size:16px }
+
+     .text, h3 {background:#1F49EE;
+       color:white;}
+    </style>
+  </head>
+  <body>
+  <fieldset> <legend> <img src="fenixlogo.gif" alt=""> </legend>
+  <form class="1" action="calcular.php" method="get">
+<p> Fecha: <input type="text" id="" value="01/12/2020"> </p>
+<p> Motocicleta <select class="text" id="Motocicleta" size="4">
+  <option value="Ap"> Aprillia </option>
+  <option value="BM"> BMW </option>
+  <option value="Du"> Ducati </option>
+  <option value="Ho"> Honda </option>
+  <option value="Su"> Suzuki </option>
+  <option value="Ve"> Vespa </option>
+  <option value="Ot"> Otras </option>
+</select> </p>
+<p>  <label for="Cilindrada"> Cilindrada: </label>
+<select class="text" id="Cilindrada">
+<option value="50"> Scooter hasta 50cc</option>
+<option value="125"> Scooter de 51 a 125cc</option>
+<option value="250"> Scooter de 226 a 250cc</option>
+<option value="500"> Scooter de 251 a 500cc</option>
+<option value="+500"> Scooter superior a 500cc</option>
+</select>align="right"
+ </p>
+<p> Nos conociste a través de: <br/>
+<input type="checkbox" id=""/> Internet
+<input type="checkbox" id=""/> Amigos
+<input type="checkbox" id=""/> Prensa
+<input type="checkbox" id=""/> Radio y/o televisión
+<img src="fenixmoto.jpg" alt="" align="right">
+</p>
+  </form>
+  </fieldset>
+ <h3> FENIX DIRECTO Compañia de seguros y reaseguros S.A </h3>
+ <p> <span>Una compañia del Grupo ALIANZ  </span> </p>
+ <p> Calle Ramirez de Arellano, 35 - 28043 Madrid.</p>
+ <p> e-mail: <a href=""> Fenixdirecto@fenixdirecto.com</a></p>
+  </body>
+</html>
