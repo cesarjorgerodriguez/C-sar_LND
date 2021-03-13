@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Documento XML con errores de sintaxis corregidos-->
+
+
+<!--"version" tenia una tilde que ocasionaba un error-->
+<!--"Encoding" estaba mal escrito, y faltaba la interrogante al acabar la etiqueta-->
+
+
+<!--Las etiquetas no estaban cerradas-->
+<!--He tenido que añadir una etiqueta que contenga las demas,llamada "tipo"-->
+<tipo>
+<terrestres>
+   <vehiculo> bicicleta </vehiculo>
+   <vehiculo> coche </vehiculo>
+   <vehiculo> tractor </vehiculo>
+</terrestres>
+
+<acuaticos>
+   <vehiculo> canoa </vehiculo>
+ </acuaticos>
+ <!--Faltaba cerrar la etiqueta acuaticos-->
+<aereos>
+   <vehiculo>avioneta </vehiculo>
+   <!--la etiqueta vehiculo estaba sin cerrar y repetida-->
+   <vehiculo> helicóptero </vehiculo>
+</aereos>
+</tipo>

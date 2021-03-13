@@ -1,0 +1,20 @@
+<!ELEMENT pelicula (titulo, writer+, productor+, actor*, comentarios?)>
+<!ATTLIST pelicula
+tipo (drama | comedy | adventure | sci-fi | mistery | horror | romance | documentary) "drama"
+clasificacion ( G | PG | PG-13 | R | X) "PG"
+review ( 1 | 2 | 3 | 4 | 5) "3"
+año CDATA #IMPLIED
+
+Primero se estable la etiqueta pelicula la cual debe contener las siguientes etiquetas:
+- "titulo" debe aparecer una vez y no puede repetirse.
+- "writer", debe aparecer una vez mínimo,también puede aparecer varias veces.
+- "productor", debe aparecer una vez mínimo,también puede aparecer varias veces.
+- "actor", puede aparecer ninguna, una o varias  veces.
+- "comentarios", puede aparecer ninguna, o una vez.
+
+Segundo, la etiqueta pelicula podra tener los siguientes atributos:
+- "tipo", puede ser drama, comedia, aventura, sci-fi, misterio, horror, romance o
+documental, por defecto será un drama.
+- "clasificacion", puede ser G, PG, PG-13, R o X, por defecto será PG.
+- "review", puede ser 1, 2, 3, 4 o 5, pro defecto será 3.
+- "año", la cual no es obligatoria.

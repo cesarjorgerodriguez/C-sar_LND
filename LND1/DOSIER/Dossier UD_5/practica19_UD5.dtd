@@ -1,0 +1,12 @@
+<!ATTLIST curso director CDATA #REQUIRED
+horario (mañana | tarde | noche)#IMPLIED
+matricula (ordinaria | extraordinaria) "Ordinaria"
+tasas CDATA #FIXED "53">
+
+
+- Se especifica una lista de atributos para curso, con el atributo director y tiene
+que aparecer obligatoriamente, el siguiente es una lista de atributos para horario,
+el cual puede ser mañana, tarde o noche, el atributo es opcional en este caso.
+Otra lista de atributos para matrícula que puede tener el atributo ordinaria o
+extraordiaria, por defecto será ordinaria.
+Por último el atributo tasas tendra si o si un texto y por defecto será 53.

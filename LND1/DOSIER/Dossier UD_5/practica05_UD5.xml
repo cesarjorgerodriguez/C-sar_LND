@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE libreria SYSTEM "libreria.dtd">
+
+<!--No se produce un error porque en el documento dtd tengo especificado que se
+pueda poner mas de 1 etiqueta autor-->
+<libreria>
+
+<libro categoria="cocina">
+  <titulo> Titanica </titulo>
+  <autor>  Eva Garcia Saenz de Urturi </autor>
+  <autor> </autor>
+  <autor> </autor>
+  <editorial> Editorial planeta </editorial>
+</libro>
+
+<libro categoria="novela">
+  <titulo> Linea de fuego </titulo>
+ <autor> Arturo Perez-Reverte </autor>
+ <editorial> Alfaguara </editorial>
+</libro>
+
+<libro categoria="programacion">
+<titulo > Un oceano para llegar a ti </titulo>
+<autor> Sandra Barnera </autor>
+<editorial> Editorial planeta </editorial>
+</libro>
+
+<libro categoria="programacion">
+  <titulo> Las tinieblas y el alba </titulo>
+  <autor> Ken Follett </autor>
+  <editorial> Plazas y Janes </editorial>
+</libro>
+
+</libreria>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="estilo-articulo.css"?>
+<tabla>
+
+<articulos>
+<nombre> Sofá </nombre>
+<precio> 642 </precio>
+</articulos>
+
+<articulos>
+<nombre> Mesa </nombre>
+<precio> 305 </precio>
+</articulos>
+
+<articulos>
+<nombre> Lámpara </nombre>
+<precio> 89 </precio>
+</articulos>
+
+</tabla>

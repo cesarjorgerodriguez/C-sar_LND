@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE zona SYSTEM "practica23_UD5.dtd">
+
+
+<zona>
+<centro>
+<alumno>
+<contacto>nombre1, 6837425 </contacto>
+</alumno>
+<alumno>
+<contacto> nombre2, 382782614 </contacto>
+<nombre> </nombre>
+</alumno>
+</centro>
+</zona>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<futbol>
+
+<!--Equipo 1-->
+
+<equipo>
+
+<nombre> Real Madrid </nombre>
+<ciudad> Madrid </ciudad>
+<entrenador> </entrenador>
+
+<jugadores>
+<jugador1 posicion="defensa">
+<nombre> S.Ramos </nombre>
+<nacionalidad> Española </nacionalidad>
+</jugador1>
+
+<jugador2 posicion="medio">
+<nombre> Bemzema </nombre>
+<nacionalidad> Francesa </nacionalidad>
+</jugador2>
+</jugadores>
+</equipo>
+
+<!--Equipo 2-->
+
+<equipo>
+
+<nombre> Barça </nombre>
+<ciudad> Barcelona </ciudad>
+<entrenador> </entrenador>
+
+<jugadores>
+<jugador1 posicion="delantero">
+<nombre> Messi </nombre>
+<nacionalidad> Argentina </nacionalidad>
+</jugador1>
+
+<jugador2 posicion="portero">
+<nombre> Ter Stegen </nombre>
+<nacionalidad> Alemana </nacionalidad>
+</jugador2>
+</jugadores>
+
+</equipo>
+
+</futbol>

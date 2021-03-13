@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--La etiqueta xml empezaba en mayuscula lo cual ocasiona error, se escribe 1.0
+no 1,0 y en el atributo encoding la palabra UTF-8 no tenia el guion-->
+
+<!-- No se puede poner <triangulo base="7" altura="5" y no cerrar etiqueta. Y la estructura
+de las etiquetas esta mal formada, tiene
+que ir de la siguiente manera:-->
+<forma>
+<triangulo>
+<base> 7 </base>
+<altura> 5 </altura>
+</triangulo>
+<triangulo>
+  <base> 2 </base>
+<altura> 6 </altura>
+</triangulo>
+<triangulo>
+  <base> 3 </base>
+<altura> 3 </altura>
+</triangulo>
+</forma>

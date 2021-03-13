@@ -1,0 +1,20 @@
+<!-- El documento no especifica el tipo de coficicacion en este caso,
+puse codificacion UTF-8, por gusto tambien puse si utilizaba o no,
+un documento DTD externo-->
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<documento>
+<!-- La etiqueta "destacar" tiene un atributo,por lo que su contenido
+va entre comillas, tampoco está bien cerrada la etiqueta (IMPORTANTE,
+una etiqueta no puede ir dentro de otra a no ser que sea la principal)-->
+
+<p> Mi Primer documento XML  </p>
+
+<destacar importancia="1"> </destacar>
+<!-- La etiqueta documento estaba repetida, y solo con un cierre,
+no es necesario tener dos etiquetas documento.-->
+<p> Comienza con la etiqueta </p>
+<p> A continuacion colocamos un elemento sin contenido</p>
+<!-- La etiqueta imagen no estaba cerrada-->
+<imagen fichero="imagen.gif"> </imagen>
+
+</documento>

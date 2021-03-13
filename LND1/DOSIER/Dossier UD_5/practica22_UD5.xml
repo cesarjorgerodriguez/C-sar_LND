@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE gmail [
+<!ELEMENT gmail (mensajes)*>
+<!ELEMENT mensajes (autor, destinatario+, asunto)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ENTITY yo "Cesar, Jorge, Rodriguez">
+<!ENTITY curso "Primero de Administración de Sistemas Informáticos en Red">
+]>
+
+<gmail>
+
+<mensajes>
+<autor> cesar</autor>
+<destinatario> usuario1 </destinatario>
+<asunto>&yo;,&curso; </asunto>
+</mensajes>
+
+<mensajes>
+<autor>cesar</autor>
+<destinatario>usuario2</destinatario>
+<asunto>&yo;,&curso; </asunto>
+</mensajes>
+
+<mensajes>
+<autor>cesar</autor>
+<destinatario>usuario3</destinatario>
+<asunto>&yo;,&curso; </asunto>
+</mensajes>
+
+</gmail>

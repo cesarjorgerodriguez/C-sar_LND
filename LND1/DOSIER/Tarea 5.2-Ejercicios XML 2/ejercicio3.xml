@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--He usado una pagina web para ver la estructura en arbol llamada: Codebeautify-->
+<Oferta>
+CDs EN OFERTA
+
+<cd1>
+<titulo> Still got the blues </titulo>
+<Artista> Gary Moore </Artista>
+<pais> UK </pais>
+<Discográfica> Virgin records </Discográfica>
+<precio> 10.20 </precio>
+<publicacion> 1990 </publicacion>
+ </cd1>
+
+ <cd2>
+<titulo> One night only </titulo>
+<Artista> Bee Gees </Artista>
+<pais> UK </pais>
+<Discográfica> Polydor </Discográfica>
+<precio> 10.90 </precio>
+<publicacion> 1998 </publicacion>
+ </cd2>
+
+ <cd3>
+<titulo> Whem a man loves a woman </titulo>
+<Artista> Percy Sledge </Artista>
+<pais> USA </pais>
+<Discográfica> Atlantic </Discográfica>
+<precio> 8.70 </precio>
+<publicacion> 1987 </publicacion>
+ </cd3>
+
+ <cd4>
+<titulo> Big willie style </titulo>
+<Artista> Will Smith </Artista>
+<pais> USA </pais>
+<Discográfica> Columbia </Discográfica>
+<precio> 9.90 </precio>
+<publicacion> 1997 </publicacion>
+ </cd4>
+
+ <cd5>
+<titulo> La cancion de Juan Perro </titulo>
+<Artista> Radio Futura </Artista>
+<pais> España </pais>
+<Discográfica> Sony Music-Ariola </Discográfica>
+<precio> 9.90 </precio>
+<publicacion> 1987 </publicacion>
+ </cd5>
+
+ <cd6>
+<titulo> The dock of the bay </titulo>
+<Artista> Otis Redding </Artista>
+<pais> USA </pais>
+<Discográfica> Atlantic </Discográfica>
+<precio> 7.90 </precio>
+<publicacion> 1987 </publicacion>
+ </cd6>
+
+</Oferta>

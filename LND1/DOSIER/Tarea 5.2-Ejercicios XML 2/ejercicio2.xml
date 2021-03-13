@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--He usado una pagina web para ver la estructura en arbol llamada: Codebeautify-->
+<tienda>
+
+<Venta1>
+<Nombre>Gofres Belgas</Nombre>
+<Precio> 5.95 </Precio>
+<Descripcion> Dos de nuestros
+famosos gofres belgas con
+abundante sirope</Descripcion>
+<Calorias> 650 </Calorias>
+</Venta1>
+
+<Venta2>
+<Nombre>Gofres Belgas
+con fresas </Nombre>
+<Precio> 7.95 </Precio>
+<Descripcion> Ligreros gofres belgas
+cubiertos de fresas y nata
+montada</Descripcion>
+<Calorias> 900 </Calorias>
+</Venta2>
+
+<venta3>
+<Nombre>Gofres belgas con
+frutas del bosque</Nombre>
+<Precio> 8.95 </Precio>
+<Descripcion> Ligreros gofres belgas
+cubiertos con frutas del bosque
+y nata montada
+montada</Descripcion>
+<Calorias> 900 </Calorias>
+</venta3>
+
+<venta4>
+<Nombre>Tostada Francesa </Nombre>
+<Precio> 4.50 </Precio>
+<Descripcion> Dos gruesas rebanadas
+de nuestro pan francés casero</Descripcion>
+<Calorias> 600 </Calorias>
+</venta4>
+
+<venta5>
+<Nombre>Desayuno de la casa </Nombre>
+<Precio> 6.95 </Precio>
+<Descripcion> Dos huevos,bacon o
+salchicha, tostada y patatas fritas
+</Descripcion>
+<Calorias> 950 </Calorias>
+</venta5>
+</tienda>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<libros>
+<!-- La etiqueta libro estaba mal cerrada con un corchete y no puede contener otras etiquetas-->
+<libro id="quijote"> </libro>
+<titulo>El Quijote</titulo>
+<!-- los atributos de la etiqueta autor estaban repetidos, y su contenido no estaban
+entre comillas, faltaba cerrar la etiqueta-->
+<autor nombre="cervantes"> </autor>
+<!-- habia un signo "<" en medio del texto por lo que no cerraba bien la etiqueta-->
+<descripcion> Es el mejor libro de cervantes. </descripcion>
+
+<!-- La etiqueta libros no puede empezar con mayuscula y menos si al crear la
+etiqueta esta estaba escrita todo en minuscula-->
+</libros>

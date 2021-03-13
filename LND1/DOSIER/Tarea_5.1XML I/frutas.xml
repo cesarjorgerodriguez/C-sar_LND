@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--A la etiqueta xml le faltaba el simbolo de interrogante antes de cerrar la
+etiqueta-->
+
+<!--Las etiquetas estaban separadas lo que ocasionaba que no funcionaran-->
+<frutas>
+   <fruta1>
+      <nombre> cereza </nombre>
+   </fruta1>
+   <fruta2>
+      <nombre> naranja </nombre>
+   </fruta2>
+</frutas>

@@ -1,0 +1,12 @@
+<!ELEMENT editorial  ( #PCDATA )>
+
+<!ELEMENT libro  ( titulo , autor+ , editorial )>
+<!ATTLIST libro
+categoria CDATA #REQUIRED
+>
+
+<!ELEMENT titulo  ( #PCDATA )>
+
+<!ELEMENT libreria  ( libro+ )>
+
+<!ELEMENT autor  ( #PCDATA )>

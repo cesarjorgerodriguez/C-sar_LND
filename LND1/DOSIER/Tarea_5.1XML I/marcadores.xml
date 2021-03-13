@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<marcadores>
+
+<página>
+<nombre> abrirllave </nombre>
+<descripcion> Tutoriales de informatica </descripcion>
+<url> <a href="https://www.abrirllave.com/"/> </url>
+</página>
+
+<página>
+<nombre> Wikipedia </nombre>
+<descripcion> La enciclopedia libre </descripcion>
+<url> <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada"/> </url>
+</página>
+
+<página>
+<nombre> W3C </nombre>
+<descripcion> World WIde Web Consortium</descripcion>
+<url> <a href="https://www.w3.org/"/> </url>
+</página>
+
+</marcadores>
