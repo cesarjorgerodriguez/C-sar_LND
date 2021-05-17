@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<persona   xsi:schemaLocation="http://www.misitio.com team7ej4xsd.xsd" xmlns:xs="team7ej4xsd.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.misitio.com">
-   <nombre> cesar </nombre>
-    <apellidos> jorge rodriguez</apellidos>
-    <edad>63</edad>
-    <fechanacimiento>  </fechanacimiento>
-  </persona>
-
-<!-- Se obtiene el error: cvc-maxInclusive-valid: Value '63' is not facet-valid with respect to maxInclusive '50' for type '#AnonType_edadpersona'.-->
