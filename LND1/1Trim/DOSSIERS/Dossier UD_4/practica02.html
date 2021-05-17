@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+  <head>
+    <title>practica01</title>
+    <style media="screen">
+    .nombre, .descripcion  {color:green}
+    input.nombre, .texto  {background-color:lightgrey;color:blue;}
+    .precio {background-color: red;font-family:Arial;font-weight: bold;}
+    .descuento1 {border-top: green 5px dotted;border-bottom:green 5px dotted;
+    border-left:green 5px dotted;border-right:green 5px dotted;}
+    legend {color: violet;}
+    </style>
+  </head>
+
+  <body>
+    <table>
+  <tr>
+    <td> <b>Información sobre el producto: </b> </td>
+  </tr>
+</table>
+
+
+<fieldset> <legend> Datos básicos </legend>
+  <form id="formulario1" action="index.html" method="post">
+
+
+<p class="nombre"> <label for="nombre_id"> Nombre: <br/> <input type="text" id="nombre_id" class="nombre"/> </label> </p>
+<p class="descripcion"> Descripción </p> <textarea id="descripción_id" rows="8" cols="80" class="texto">
+</textarea> <br/> <br/>
+<p> <label for="Foto_id"> Foto <input type="text" id="Foto_id"/> </label>
+<button type="button" name="button"> Elegir... </button> </p>
+<p> <input type="checkbox" id="contacto_id" value="valor1"/> Añadir contador de visitas </p>
+</form>
+</fieldset>
+
+
+<fieldset> <legend> Datos económicos </legend>
+<form id="Formulario2" action="index.html" method="post">
+
+<p> <label for="precio_id"> Precio: <input type="text" id="precio_id" size="3" class="precio"/> € </label>
+&nbsp;&nbsp; Impuestos <select id="porcentaje_id" size="4">
+<option value="1" selected="selected"> 4% </option>
+<option value="2"> 7% </option>
+<option value="3"> 16% </option>
+<option value="4"> 25% </option>
+</select>  </p>
+<p>Promoción </p>
+ <input type="radio" id="promocion_id1" name="promocion" value="nulo" checked="checked"/> Ninguno. <br/>
+ <input type="radio" id="promocion_id2" name="promocion" value="valor2"/> Transporte gratuito. <br/>
+  <input type="radio" id="promocion_id3" name="promocion" value="valor3" /> <span class="descuento1"> Descuento 5%. </span>
+</form>
+</fieldset>
+</body>
+</html>
