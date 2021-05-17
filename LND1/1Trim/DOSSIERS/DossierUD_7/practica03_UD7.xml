@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona xmlns:xs="practica04_UD7.xsd" targetNamespace="http://www.misitio.com" xmlns="http://www.misitio.com" elementFormDefault="qualified" >
+
+  <nombre> cesar </nombre>
+    <apellidos> jorge rodriguez</apellidos>
+    <edad> 20 </edad>
+    <fechanacimiento>  </fechanacimiento>
+  </persona>
+
+<!-- El error que aparece es: cvc-elt.5.2.2.2.2: The value '20' of element 'edad' does not match the {value constraint} value '18'.-->
